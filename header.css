@@ -1,0 +1,101 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    font-size: 150%;
+    padding: 1%;
+    background-color: rgb(172, 156, 137);
+  }
+
+  body {
+    background-color: rgb(234, 226, 214);
+  }  
+
+  * {
+    padding: 0;
+    margin: 0;
+  }
+
+  .title {
+    font-family: "Manrope", sans-serif;
+    font-weight: 700;
+  }
+
+  .fixed-navbar {
+    position: fixed;
+    width: 100%;
+  }
+
+  .arrow > i {
+    font-size: 30px;
+  }
+  
+  .fixed-box {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    padding: 20px;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  strong {
+    font-weight: 700;
+    margin-left: 8px;
+  }
+  
+  .presentation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 3px solid rgb(172, 156, 137);
+    padding: 1%;
+    width: 50%;
+  }
+  
+  section {
+    display: flex;
+    justify-content: center;
+    padding-top: calc(62px + 2%);
+    padding-bottom: 2%;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  h2 {
+    padding-bottom: 2%;
+    padding-top: 1%;
+    font-weight: 400;
+    font-family: "Manrope", sans-serif;
+  }
+  
+  p {
+    text-align: center;
+    padding-bottom: 1%;
+    font-family: "Manrope", sans-serif;
+    font-weight: 200;
+  }
+
+  .ds {
+    display: flex;
+    align-items: center;
+  }
+  
+  .ds img {
+    width: 450px;
+    height: 60%;
+    object-fit: cover;
+    padding-left: 4%;
+  }
+  
+  .texte {
+    margin-left: 15px;
+  }
+  
+  p {
+    font-weight: 600;
+    text-align: start;
+  }
+  
